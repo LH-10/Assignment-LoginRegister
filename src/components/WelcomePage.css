@@ -1,0 +1,55 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+  position: relative;
+  padding: 0 20px;
+}
+
+
+
+.welcome-content {
+  margin-top: auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.welcome-content h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.welcome-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 24px;
+}
+
+.btn-create,
+.btn-login {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.btn-create {
+  background-color: #7950f2;
+  color: white;
+}
+
+.btn-login {
+  background-color: #d0bfff;
+  color: #7950f2;
+}
+
